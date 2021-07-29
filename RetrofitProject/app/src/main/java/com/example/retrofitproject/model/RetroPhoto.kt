@@ -1,6 +1,7 @@
 package com.example.retrofitproject.model
 
 import com.google.gson.annotations.SerializedName
+import kotlin.properties.ObservableProperty
 
 data class RetroPhoto(
     @field:SerializedName("albumId") var albumId:Int,
